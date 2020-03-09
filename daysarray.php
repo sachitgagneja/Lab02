@@ -6,11 +6,11 @@
         <title>Days Array</title>
     </head>
     <body>
-        <?php
+    <?php
             $days=array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-            echo "The days in English are: ",$days[0],",",$days[1],",",$days[2],",",$days[3],",",$days[4],",",$days[5],",",$days[6],".";
+            echo "The days in English are: \n",$days[0],",",$days[1],",",$days[2],",",$days[3],",",$days[4],",",$days[5],",",$days[6],".";
             $days=["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
-            echo "The days in French are: ",$days[0],",",$days[1],",",$days[2],",",$days[3],",",$days[4],",",$days[5],",",$days[6],".";
+            echo "\nThe days in French are: \n",$days[0],",",$days[1],",",$days[2],",",$days[3],",",$days[4],",",$days[5],",",$days[6],".";
         ?>
     </body>   
  </html>
